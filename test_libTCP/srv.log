@@ -1,0 +1,71 @@
+Mon Aug  1 18:20:01 2016: starting new log.
+[INFO]: Running server on ports 4242, 2121, 444...
+[INFO]: Initializing socket on port: 4242... OK
+[INFO]: Initializing socket on port: 2121... OK
+[INFO]: Initializing socket on port: 444... KO
+[ERROR]: new socket binding failed: Permission denied
+[WARNING]: 0 port(s) remaining
+[INFO]: 2 / 3 socket(s) are operationnal.
+[INFO]: Server launched successfully
+[INFO]: Accepting new client... OK
+[INFO]: New client connected.
+[INFO]: Server slots: 1 / 16
+[INFO]: Accepting new client... OK
+[INFO]: New client connected.
+[INFO]: Server slots: 2 / 16
+[INFO]: Accepting new client... OK
+[INFO]: New client connected.
+[INFO]: Server slots: 3 / 16
+[INFO]: Accepting new client... OK
+[INFO]: New client connected.
+[INFO]: Server slots: 4 / 16
+[INFO]: Message of 23 bytes received from 127.0.0.1:38080
+"usr0: hello everyone!
+"
+[INFO]: Message of 27 bytes received from 127.0.0.1:38084
+"usr2: hey how are u body?
+"
+[INFO]: Message of 11 bytes received from 127.0.0.1:42902
+"usr1: hey
+"
+[INFO]: Message of 21 bytes received from 127.0.0.1:42906
+"usr3: HOLA KETAL?!?
+"
+[INFO]: Message of 18 bytes received from 127.0.0.1:38080
+"usr0: bien y tu?
+"
+[INFO]: Message of 16 bytes received from 127.0.0.1:42902
+"usr1: /kill_me
+"
+[INFO]: Message of 28 bytes received from 127.0.0.1:42902
+"usr1: oups me suis tromper
+"
+[INFO]: Message of 45 bytes received from 127.0.0.1:42906
+"usr3: c /KICK_ME gros mais en minuscules ;)
+"
+[INFO]: Message of 14 bytes received from 127.0.0.1:42902
+"usr1: ah thx
+"
+[INFO]: Message of 16 bytes received from 127.0.0.1:42902
+"usr1: /kick_me
+"
+[INFO]: Client 127.0.0.1:0xa796 has been kicked.
+[INFO]: Server slots: 3 / 16
+[INFO]: Message of 22 bytes received from 127.0.0.1:38080
+"usr0: bon allez bye!
+"
+[INFO]: Message of 30 bytes received from 127.0.0.1:38084
+"usr2: bye! moi aussi je deco
+"
+[INFO]: Message of 42 bytes received from 127.0.0.1:42906
+"usr3: oki moi je kill le serv! hehehe :D
+"
+[INFO]: Connection to client 127.0.0.1:38080 closed.
+[INFO]: Server slots: 2 / 16
+[INFO]: Connection to client 127.0.0.1:38084 closed.
+[INFO]: Server slots: 1 / 16
+[INFO]: Message of 20 bytes received from 127.0.0.1:42906
+"usr3: /kill_server
+"
+Mon Aug  1 18:23:34 2016: end of log.
+

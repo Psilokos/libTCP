@@ -5,15 +5,15 @@
 ## Login   <lecouv_v@epitech.eu>
 ##
 ## Started on  Wed Jun  8 18:46:12 2016 Victorien LE COUVIOUR--TUFFET
-## Last update Mon Aug  1 17:19:50 2016 Victorien LE COUVIOUR--TUFFET
+## Last update Mon Aug  1 17:38:07 2016 Victorien LE COUVIOUR--TUFFET
 ##
 
 CC		= gcc
 
-NAME		= libTCP.so
+NAME		= $(BIN_PATH)libTCP.so
 
 CFLAGS		+= -W -Wall -Werror -Wextra
-CFLAGS		+= -I inc/ -I ../tools/inc/
+CFLAGS		+= -I inc/
 CFLAGS		+= -fPIC
 
 LDFLAGS		= -shared -L lib/ -l tools
