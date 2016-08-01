@@ -5,7 +5,7 @@
 ** Login   <lecouv_v@epitech.eu>
 **
 ** Started on  Thu Jun  9 18:23:15 2016 Victorien LE COUVIOUR--TUFFET
-** Last update Sat Jul  9 16:58:40 2016 Victorien LE COUVIOUR--TUFFET
+** Last update Mon Aug  1 17:21:57 2016 Victorien LE COUVIOUR--TUFFET
 */
 
 #ifndef TCP_H_
@@ -28,14 +28,10 @@ typedef struct	s_tcp_client
 typedef struct	s_tcp_server
 {
   void		*data;
-  int		(*run)(struct s_tcp_server *this, uint16_t ports[],
-		       size_t ports_nb, size_t slots_nb);
-  int		(*update)(struct s_tcp_server *this, int new_clients_id[],
-			  int old_clients_id[], struct timeval *timeout);
-  int		(*rcv_msg)(struct s_tcp_server *this,
-			   char **msg_ptr, size_t *size_ptr, int client_id);
-  void		(*snd_msg)(struct s_tcp_server *this,
-			   char *msg, size_t size, int client_id);
+  int		(*run)(struct s_tcp_server *this, uint16_t ports[], size_t ports_nb, size_t slots_nb);
+  int		(*update)(struct s_tcp_server *this, int new_clients_id[], int old_clients_id[], struct timeval *timeout);
+  int		(*rcv_msg)(struct s_tcp_server *this, char **msg_ptr, size_t *size_ptr, int client_id);
+  void		(*snd_msg)(struct s_tcp_server *this, char *msg, size_t size, int client_id);
   int		(*kick_client)(struct s_tcp_server *this, int client_id);
 }		t_tcp_server;
 
